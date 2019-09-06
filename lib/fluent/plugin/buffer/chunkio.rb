@@ -1,4 +1,6 @@
-require "fluent/plugin/buffer/chunkio/version"
+# frozen_string_literal: true
+
+require 'fluent/plugin/buffer/chunkio/version'
 
 module Fluent
   module Plugin
