@@ -1,5 +1,7 @@
 # Fluent::Plugin::Buffer::Chunkio ,a buffer plugin for [Fluentd](https://github.com/fluent/fluentd)
 
+[![Build Status](https://travis-ci.org/fluent/fluent-plugin-buffer-chunkio.svg?branch=master)](https://travis-ci.org/fluent/fluent-plugin-buffer-chunkio)
+
 This is a buffer plugin which uses [chunkio](https://github.com/edsiper/chunkio).
 We are planning to move this plugin to [core](https://github.com/fluent/fluentd) in the future.
 
