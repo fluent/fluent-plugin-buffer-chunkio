@@ -2,11 +2,10 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fluent/plugin/buffer/chunkio/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fluent-plugin-buffer-chunkio'
-  spec.version       = Fluent::Plugin::Buffer::Chunkio::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ['Yuta Iwama']
   spec.email         = ['ganmacs@gmail.com']
 
