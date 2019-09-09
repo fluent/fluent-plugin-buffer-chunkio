@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rr'
   spec.add_development_dependency 'test-unit'
   spec.add_development_dependency 'test-unit-rr'
+  spec.add_development_dependency 'timecop'
 end

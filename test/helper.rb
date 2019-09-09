@@ -14,6 +14,7 @@ require 'fluent/plugin_helper'
 require 'fluent/msgpack_factory'
 require 'fluent/time'
 require 'serverengine'
+require 'helpers/process_extenstion'
 
 # Some tests use Hash instead of Element for configure.
 # We should rewrite these tests in the future and remove this ad-hoc code
