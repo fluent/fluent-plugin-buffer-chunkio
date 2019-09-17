@@ -1,6 +1,6 @@
 # Fluent::Plugin::Buffer::Chunkio ,a buffer plugin for [Fluentd](https://github.com/fluent/fluentd)
 
-[![Build Status](https://travis-ci.org/fluent/fluent-plugin-buffer-chunkio.svg?branch=master)](https://travis-ci.org/fluent/fluent-plugin-buffer-chunkio)
+[![](https://github.com/fluent/fluent-plugin-buffer-chunkio/workflows/Run%20test/badge.svg)](https://github.com/fluent/fluent-plugin-buffer-chunkio/actions)
 
 This is a buffer plugin which uses [chunkio](https://github.com/edsiper/chunkio).
 We are planning to move this plugin to [core](https://github.com/fluent/fluentd) in the future.
@@ -32,6 +32,12 @@ $ gem install fluent-plugin-buffer-chunkio
 ## Usage
 
 TODO:
+
+## Test
+
+```
+bundle exec rake test
+```
 
 ## Contributing
 
